@@ -1,4 +1,4 @@
-# api/llm/route.py
+# api/llm/index.py
 # [DEV/LOCAL] http://localhost:8000/{endpoints}
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
