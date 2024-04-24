@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-
+.venv
 # testing
 /coverage
 
@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.venv/lib/python3.12/site-packages/attr/__pycache__/__init__.cpython-312.pyc
+.venv/bin/activate
+.venv/pyvenv.cfg
