@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "fastapi-dev": "python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt && uvicorn api.llm.route:app --reload",
+    "fastapi-dev": "python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt && uvicorn api.llm.index:app --reload",
     "next-dev": "next dev",
     "dev": "concurrently \"pnpm run next-dev\" \"pnpm run fastapi-dev\"",
     "build": "next build",
