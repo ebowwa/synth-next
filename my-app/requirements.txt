@@ -1,0 +1,9 @@
+openai 
+python-dotenv
+requests
+agentops
+fastapi
+uvicorn
+numpy
+pandas
+aiohttp
