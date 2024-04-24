@@ -1,5 +1,12 @@
 # Synth-Next: A Python FastAPI and Next.js 14 App Router Project
 
+
+## Installation
+
+```
+pnpm install && pnpm dev
+```
+
 ## Project Overview
 
 This repository integrates a large language model (LLM) from Mindsdb within a Next.js backend, which is fully powered by Python endpoints and a client-side web server. The simlicity of python api's with the utility of react.
