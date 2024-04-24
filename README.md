@@ -1,6 +1,6 @@
 # Synth-Next: A Python FastAPI and Next.js 14 App Router Project
 
-
+**I wouldn't personally deploy this vercel**
 ## Installation
 
 ```
