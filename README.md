@@ -1,41 +1,25 @@
-```
-This is a [Next.js](https://nextjs.org/) 14 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Synth-Next: A Python FastAPI and Next.js 14 App Router Project
 
-## Getting Started
+## Backstory
 
-First, run the development server:
+This past weekend, I participated in the X (formerly Twitter) hackathon. It was an exciting and challenging experience, where I had the opportunity to explore the wide breadth of human interactions, civic engagement, community, and innovation.
 
-```bash
-pnpm dev
-```
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The software must have exactly 420 lines of code on this auspicious day <a href="https://t.co/QEVwFb6Qb4">https://t.co/QEVwFb6Qb4</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1781734977429737576?ref_src=twsrc%5Etfw">April 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+While I had fun and gained valuable insights, I feel like I may have gotten a bit too caught up in the human side of the experience, which ultimately impacted the project's progress. I was excited to work with my assigned team and even created a Discord server to engage with my new collaborators, but unfortunately, I received little to no response from them.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Undeterred, I spent the week brainstorming and preparing for the final day. When the time came, my original team was absent, and I was paired with a new group. This new group included two other participants:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Enthusiastic and Uncompromising Partner**: This individual had been working on the project all week and had a strong, enthusiastic personality. They even yelled at me at one point (which was quite amusing). Around 2 PM, they decided to work on the project entirely on their own.
 
-## Three.js Integration
+2. **Curious but Disengaged Partner**: This partner, known as @echo4eva, was an early Python developer who was more interested in the "how" than the final result. They expressed that they weren't much of a help and wanted to go home around 1 AM.
 
-This project also includes integration with Three.js, a popular 3D rendering library. You can find the Three.js-related code in the `app/three` directory.
+3. **Promising but Unprepared Partner**: @khaljughaiman, an interesting fellow who I would be willing to work with again. They had some Python experience, but they weren't fully ready to tackle the problems at hand.
 
-## Learn More
+Ultimately, I feel like I faced the challenge mostly on my own, and the only part of the project that was demo'd to the judges was the front-end landing page that I had created.
 
-To learn more about Next.js 14 with the app router and TypeScript, take a look at the following resources:
+While I'm disappointed in the outcome, I've learned some valuable lessons. If I had focused less on the scale of the project and more on the actual result, my team and I might have been able to deliver a more polished and successful project.
 
-- [Next.js 14 Documentation](https://nextjs.org/docs/app) - learn about the new app router and other Next.js 14 features.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Overview
 
-To learn more about Three.js, check out the following resources:
-
-- [Three.js Documentation](https://threejs.org/docs/) - learn about Three.js features and API.
-- [Three.js Examples](https://threejs.org/examples/) - explore various Three.js examples.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js 14 app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-```
+This repository integrates a large language model (LLM) from Mindsdb within a Next.js backend, which is fully powered by Python endpoints and a client-side web server.
