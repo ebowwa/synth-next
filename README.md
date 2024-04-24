@@ -4,7 +4,8 @@
 
 This past weekend, I participated in the X (formerly Twitter) hackathon. It was an exciting and challenging experience, where I had the opportunity to explore the wide breadth of human interactions, civic engagement, community, and innovation.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The software must have exactly 420 lines of code on this auspicious day <a href="https://t.co/QEVwFb6Qb4">https://t.co/QEVwFb6Qb4</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1781734977429737576?ref_src=twsrc%5Etfw">April 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> The software must have exactly 420 lines of code on this auspicious day [https://t.co/QEVwFb6Qb4](https://twitter.com/elonmusk/status/1781734977429737576)
+> — Elon Musk (@elonmusk) April 20, 2024
 
 While I had fun and gained valuable insights, I feel like I may have gotten a bit too caught up in the human side of the experience, which ultimately impacted the project's progress. I was excited to work with my assigned team and even created a Discord server to engage with my new collaborators, but unfortunately, I received little to no response from them.
 
