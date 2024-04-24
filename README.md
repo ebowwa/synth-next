@@ -6,6 +6,13 @@
 ```
 pnpm install && pnpm dev
 ```
+## TRY THIS OUT WITH API's FROM
+
+- https://fal.ai/
+- https://mindsdb.com/
+- https://exa.ai/
+- https://docs.together.ai/docs/quickstart
+- etc.
 
 ## Project Overview
 
