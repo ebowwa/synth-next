@@ -39,3 +39,12 @@ next-env.d.ts
 .venv/pyvenv.cfg
 .env
 /Users/ebowwa/synth-next/.env
+.__pycache__
+__pycache__.
+env
+./env/*
+env/bin
+env/*
+env/pyvenv.cfg
+env/bin/activate
+env/bin/activate.csh

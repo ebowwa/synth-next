@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useToast } from "@/components/ui/use-toast";
 import { Toaster } from "@/components/ui/toaster";
 import TextGenerationParams, { TextGenerationParams as TextGenerationParamsType } from "@/(client-substrate)/components/TextGenerationParams";
-import { fetchWithLogging } from './utils';
+import { generateText } from './api';
 
 export default function HomePage() {
   const [textGenerationParams, setTextGenerationParams] = useState<TextGenerationParamsType>({
@@ -20,7 +20,7 @@ export default function HomePage() {
   const [result, setResult] = useState('');
   const { toast, dismiss } = useToast();
 
-  const generateText = async () => {
+  const handleTextGeneration = async () => {
     let thinkingToastId: string | null = null;
 
     try {
@@ -32,20 +32,8 @@ export default function HomePage() {
       });
       thinkingToastId = id;
 
-      const response = await fetchWithLogging('/api/generate_text', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(textGenerationParams),
-      });
-
-      if (!response.ok) {
-        throw new Error('Error generating text');
-      }
-
-      const data = await response.json();
-      setResult(data.result);
+      const generatedText = await generateText(textGenerationParams);
+      setResult(generatedText);
 
       // Close the "Thinking" toast
       if (thinkingToastId) {
@@ -83,7 +71,7 @@ export default function HomePage() {
     <div>
       <h1>Text Generation</h1>
       <TextGenerationParams onParamsChange={handleParamsChange} />
-      <button onClick={generateText}>Generate Text</button>
+      <button onClick={handleTextGeneration}>Generate Text</button>
       {result && <p>Result: {result}</p>}
       <Toaster />
     </div>
