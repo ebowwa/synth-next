@@ -48,3 +48,5 @@ env/*
 env/pyvenv.cfg
 env/bin/activate
 env/bin/activate.csh
+env
+env/*
